@@ -71,7 +71,7 @@ def main():
     inputFile = read_input("input.txt")
     activeCoords = getInitialActiveCoords(inputFile)
     bounds = getInitialBounds(inputFile)
-    print(part2(activeCoords, bounds))
+    print("The answer to part 2 is " + str(part2(activeCoords, bounds)))
 
 if __name__ == "__main__":
     main()
